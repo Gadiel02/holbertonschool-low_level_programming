@@ -1,0 +1,2 @@
+#!/bin/bash
+alias chm="chmod u+x [[:digit:]]*"
