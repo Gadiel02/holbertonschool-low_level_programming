@@ -1,9 +1,10 @@
 #include"main.h"
 /**
  *print_sign- Entry point
- *@c: an argument
+ *@n: an argument
  *Return: Always 0 (Success)
  */
+
 int print_sign(int n)
 {
 	if (n > 0)
