@@ -1,6 +1,7 @@
 #include"main.h"
 /**
- * main - check the code
+ * add - entry point
+ *
  *@val1: an argument
  *@val2: an argument
  * Return: sum.
