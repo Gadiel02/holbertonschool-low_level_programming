@@ -1,48 +1,42 @@
 #include "main.h"
-
-
-#include <stdio.h>
-
-
 /**
- * print_to_98 - print a program to 98
- * @n: The number to start printing
- * Return: Always 0.
+ * times_table - prints the 9 times table
+ * Description: prints the 9 times table
+ * Return: void
  */
-
-
-void print_to_98(int n)
+void times_table(void)
 {
-	if (n <= 98)
+	int row, column, product, tens, ones;
+
+
+	for (row = 0; row <= 9; row++)
 	{
-	for (; n <= 98; n++)
+	for (column = 0; column <= 9; column++)
 	{
-	if (n == 98)
+	product = row * column;
+	tens = product / 10;
+	ones = product % 10;
+	if (column == 0)
 	{
-	printf("%d", n);
-	printf("\n");
-	break;
+	_putchar('0');
+	}
+	else if (product < 10)
+	{
+	_putchar(',');
+	_putchar(' ');
+	_putchar(' ');
+	_putchar(ones + '0');
 	}
 	else
 	{
-	printf("%d, ", n);
+
+
+		_putchar(',');
+		_putchar(' ');
+		_putchar(tens + '0');
+		_putchar(ones + '0');
 	}
 	}
-	}
-	else
-	{
-	for (; n >= 98; n--)
-	{
-	if (n == 98)
-	{
-	printf("%d", n);
-	printf("\n");
-	break;
-	}
-	else
-	{
-		printf("%d, ", n);
-	}
-	}
+	_putchar('\n');
 	}
 }
