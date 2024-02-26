@@ -5,6 +5,7 @@
  *@val2: an argument
  * Return: sum.
  */
+
 int add(int val1, int val2)
 {
 	int sum;
