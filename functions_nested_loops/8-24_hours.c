@@ -1,7 +1,7 @@
 #include"main.h"
 /**
- *- Entry point
- *
+ *jack_bauer- Entry point
+ *@h,m: an argument
  *Return: Always 0 (Success)
  */
 
