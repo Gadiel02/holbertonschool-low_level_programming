@@ -1,7 +1,8 @@
-#include"main.c"
+#include"main.h"
 /**
- *_islower - Entry point
- *@c: an argument
+ *mul - Entry point
+ *@a: an argument
+ *@b: an argument
  *Return: Always 0 (Success)
  */
 
