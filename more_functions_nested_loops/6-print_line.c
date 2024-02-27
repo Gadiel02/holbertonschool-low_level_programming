@@ -1,7 +1,7 @@
 #include"main.h"
 /**
  *print_line - Entry point
- *@c: an argument
+ *@n: an argument
  *Return: Always 0 (Success)
  */
 
