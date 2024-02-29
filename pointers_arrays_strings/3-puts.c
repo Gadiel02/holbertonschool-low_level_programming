@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *_islower - Entry point
- *@c: an argument
+ *_puts - Entry point
+ *@str: an argument
  *Return: Always 0 (Success)
  */
 
