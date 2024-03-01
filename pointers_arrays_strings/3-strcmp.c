@@ -1,13 +1,14 @@
 /**
- *_islower - Entry point
- *@c: an argument
+ *_strcmp - Entry point
+ *@s1: an argument
+ *@s2: an argument
  *Return: Always 0 (Success)
  */
 int _strcmp(char *s1, char *s2)
 {
 	int z;
 	int index = 0;
-	
+
 	z = s1[index] - s2[index];
 	while (z == 0)
 	{
