@@ -10,8 +10,14 @@ char *cap_string(char *upe)
 
 	for (i = 0; upe[i] != '\0'; i++)
 	{
-		if (i == 0 || upe[i - 1] == ' ' || upe[i - 1] == '.' || upe[i - 1] == '\n')
-		{0
+		if (i == 0 || upe[i - 1] == ' ' || upe[i - 1] == '.'
+				|| upe[i - 1] == '\n' || upe[i - 1] == '	'
+				|| upe[i - 1] == ',' || upe[i - 1] == '!'
+				|| upe[i - 1] == '?' || upe[i - 1] == '"'
+				|| upe[i - 1] == '(' || upe[i - 1] == ')'
+				|| upe[i - 1] == '{' || upe[i - 1] == '}'
+				|| upe[i - 1] == ';')
+		{
 			if (upe[i] >= 'a' && upe[i] <= 'z')
 				upe[i] -= 32;
 		}
