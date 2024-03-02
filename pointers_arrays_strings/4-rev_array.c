@@ -15,12 +15,11 @@ void reverse_array(int *a, int n)
 		pt++;
 	}
 
-
 	for (j = 0; j < i / 2; j++)
 	{
-		Loki = *pt;
-		*pt = pt[j];
-		pt[j] = Loki;
+		Loki = a[j];
+		a[j] = *pt;
+		*pt = Loki;
 		pt--;
 	}
 }
