@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_islower - Entry point
+ *_strchr - Entry point
  *@s: an argument
  *@c: an argument
  *Return: Always 0 (Success)
