@@ -3,7 +3,6 @@
  *print_name - check the code
  *@name: bob
  *@f: pointer to function
- * void: Always 0.
  */
 void print_name(char *name, void (*f)(char *))
 {
