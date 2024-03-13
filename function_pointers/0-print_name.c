@@ -1,6 +1,6 @@
 #include "function_pointers.h"
 /**
- *print_name - check the code
+ *print_name - print a name 
  *@name: bob
  *@f: pointer to function
  */
