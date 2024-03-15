@@ -1,10 +1,9 @@
 #ifndef CALC_H
 #define CALC_H
 /**
- *op - strct op
+ *struct op - strct op
  *@f: function
  *@op: operator
- * Return: Always 0.
  */
 typedef struct op
 {
