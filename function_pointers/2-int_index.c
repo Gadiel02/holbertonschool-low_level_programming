@@ -2,8 +2,8 @@
 /**
  *int_index - serch integer
  *@size: size of array
- *@array:
- *@cmp:
+ *@array: an argument
+ *@cmp: an argument
  * Return: Always 0.
  */
 int int_index(int *array, int size, int (*cmp)(int))
