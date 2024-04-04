@@ -1,11 +1,5 @@
 #include "lists.h"
-/**
-  * insert_dnodeint_at_index - inserts a node at an index
-  * @h: double pointer to a linked list
-  * @idx: where to add the node
-  * @n: value of the node
-  * Return: pointer to the new node
-  */
+
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *tmp, *new;
